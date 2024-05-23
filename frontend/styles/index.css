@@ -1,0 +1,174 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+    html,body{
+        
+        font-size: 62.5%;
+        font-family:sans-serif;
+        text-rendering: optimizeLegibility;
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    main{
+        background-color: #040A2F;
+    }
+
+    #topo{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        background-color: #5C0099;
+        color: white;
+        padding: 1rem;
+    }
+
+    #lupa{
+        border-radius: 55rem;
+        height: 5rem;
+        width: 5rem;
+        font-size: 3rem;
+        background-color: #5C0099;
+        border: none;
+        margin-right: 1rem;
+    }
+
+    #logao{
+        height: 12rem;
+        width: 12rem;
+        border-radius: 55rem;
+        margin-right: 2rem;
+    }
+
+    #esquerda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #direita{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pesquisa{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 50rem;
+
+        margin-right: 1rem;
+    }
+
+    #corpo{
+        padding-top: 2.8rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #filme_princ{
+        display: flex;
+        justify-content: start;
+        background-size: cover;
+        padding: 3rem;
+        width: 80%;
+        background-image:url();
+        background-repeat: no-repeat;
+    }
+    
+    #nome_princ{
+        font-size: 5rem;
+        padding: 0.5rem;
+        color: white;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: rgba(92, 0, 153, 0.8);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); ;
+    }
+
+    ul{
+        
+        padding: 0.5rem;
+        width: 20rem;
+        border-radius: 1rem;
+        background-color: rgba(92, 0, 153, 0.4);
+        box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.8) ;
+    }
+
+    p{
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    #filme_cata{
+        margin-left: 2.5rem;
+        height: 25rem;
+        width: 20rem;
+        border: solid 0.7rem black;
+    }
+
+    #descricao{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #filmes{
+        margin-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        cursor: pointer;
+    }
+
+    .filme_logo{
+        height: 35rem;
+        width: 25rem;
+
+        cursor: pointer;   
+    }
+
+    .mini_filme{
+        padding: 0.5rem;
+        max-width: 25rem;
+        height: 7rem;
+        margin-bottom: 2rem;
+        color: white;
+        background-color: #5C0099;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    b{
+        font-size: 1.3rem;
+    }
+
+    li{
+        margin-top: 1.5rem;
+        color: white;
+    }
+
+    .rodape{
+        color: black;
+    }
+
+    #rodape{
+        background-color: #5C0099;
+    }
